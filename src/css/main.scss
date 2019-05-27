@@ -1,6 +1,13 @@
 //Zerando CSS
-
+*{
+}
 //CSS NAVBAR
+
+//SCROLL
+html{
+    scroll-behavior: smooth;
+}
+
 .nav-link{
     color: white;
     transition: 1s;
@@ -61,6 +68,7 @@
 	margin-bottom: 70px;
     border: none;
     align-items: center;
+    text-align: center;
 }
 
 
