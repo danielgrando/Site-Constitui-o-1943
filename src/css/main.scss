@@ -1,6 +1,3 @@
-//Zerando CSS
-
-
 //SCROLL
 html{
     scroll-behavior: smooth;
@@ -17,6 +14,7 @@ html{
 //CSS TITULO
 
 .titulo{
+    width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -66,10 +64,25 @@ html{
 	margin-bottom: 70px;
     border: none;
     align-items: center;
-    text-align: center;
 }
 
-
+//TOP
+.top{
+    position: fixed;
+    width: 46px;
+    height: 46px;
+    background: #6ab04c;
+    bottom: 40px;
+    right: 30px;
+    text-decoration: none;
+    line-height: 50px;
+    color: white;
+    font-size: 21px;
+    text-align: center;
+}
+.top:hover{
+  color: #f7ff56;
+}
 
 
 
