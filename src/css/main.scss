@@ -11,7 +11,10 @@ html{
     color: #6ab04c;
 }
 
-//CSS TITULO
+
+
+
+//TITULO
 
 .titulo{
     width: 100%;
@@ -55,6 +58,8 @@ html{
   }
 
 
+
+
 //CONTAINER
 
 .hr{
@@ -66,7 +71,10 @@ html{
     align-items: center;
 }
 
-//TOP
+
+
+
+//SCROLL-TOP
 .top{
     position: fixed;
     width: 46px;
@@ -94,6 +102,46 @@ img{
 .img1{
     height: 112px;
 }
+
+
+//CARDS
+.card{
+    cursor: pointer;
+    width: 250px;
+    height: 350px;
+}
+.front,.back{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform .6s linear;
+    box-shadow: 2px 2px 3px;
+}
+.front img{
+    height: 100%;
+}
+.front{
+     transform: perspective(600px) rotateY(0deg);
+}
+.back{
+    transform: perspective(600px) rotateY(180deg);
+}
+.back-content{
+    //color: #2c3e50;
+    color: black;
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+}
+.card:hover > .front{
+    transform: perspective(600px) rotateY(-180deg);
+}
+.card:hover > .back{
+    transform: perspective(600px) rotateY(0deg);
+}
+  
 
 
 
