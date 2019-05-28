@@ -108,6 +108,17 @@ html {
   color: #f7ff56;
 }
 
+img {
+  height: 150px;
+  width: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.img1 {
+  height: 112px;
+}
+
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
