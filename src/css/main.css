@@ -119,9 +119,9 @@ img {
   height: 112px;
 }
 
-.card {
+.card1 {
   cursor: pointer;
-  width: 250px;
+  width: 150px;
   height: 350px;
 }
 
@@ -161,12 +161,12 @@ img {
   text-align: center;
 }
 
-.card:hover > .front {
+.card1:hover > .front {
   -webkit-transform: perspective(600px) rotateY(-180deg);
           transform: perspective(600px) rotateY(-180deg);
 }
 
-.card:hover > .back {
+.card1:hover > .back {
   -webkit-transform: perspective(600px) rotateY(0deg);
           transform: perspective(600px) rotateY(0deg);
 }

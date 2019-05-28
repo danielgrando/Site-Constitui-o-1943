@@ -105,9 +105,9 @@ img{
 
 
 //CARDS
-.card{
+.card1{
     cursor: pointer;
-    width: 250px;
+    width: 150px;
     height: 350px;
 }
 .front,.back{
@@ -135,13 +135,12 @@ img{
     font-size: 15px;
     text-align: center;
 }
-.card:hover > .front{
+.card1:hover > .front{
     transform: perspective(600px) rotateY(-180deg);
 }
-.card:hover > .back{
+.card1:hover > .back{
     transform: perspective(600px) rotateY(0deg);
 }
-  
 
 
 
