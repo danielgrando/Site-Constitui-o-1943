@@ -25,6 +25,8 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  background-image: url("https://unsplash.it/1500/639?random");
+  background-repeat: no-repeat;
 }
 
 .titulo span {
@@ -38,7 +40,6 @@ html {
   font-weight: 700;
   letter-spacing: 8px;
   margin-bottom: 20px;
-  background: white;
   position: relative;
   -webkit-animation: text 3s 1;
           animation: text 3s 1;
@@ -51,7 +52,7 @@ html {
 
 @-webkit-keyframes text {
   0% {
-    color: black;
+    color: white;
     margin-bottom: -40px;
   }
   30% {
@@ -66,7 +67,7 @@ html {
 
 @keyframes text {
   0% {
-    color: black;
+    color: white;
     margin-bottom: -40px;
   }
   30% {

@@ -22,8 +22,8 @@ html{
     display: flex;
     justify-content: center;
     flex-direction: column;
-   // background-image: url("https://unsplash.it/1300/600?random"); 
-    //background-repeat: no-repeat;
+    background-image: url("https://unsplash.it/1500/639?random"); 
+    background-repeat: no-repeat;
 }
 .titulo span{
     text-transform: uppercase;
@@ -35,7 +35,7 @@ html{
     font-weight: 700;
     letter-spacing: 8px;
     margin-bottom: 20px;
-    background: white;
+    //background: white;
     position: relative;
     animation: text 3s 1;
 }
@@ -46,7 +46,7 @@ html{
   
 @keyframes text {
     0%{
-      color: black;
+      color: white;
       margin-bottom: -40px;
     }
     30%{
