@@ -30,7 +30,7 @@ html{
     display: block;
 }
 .text1{
-    color: black;
+    color: rgba(106, 176, 76,0.9);
     font-size: 60px;
     font-weight: 700;
     letter-spacing: 8px;
@@ -41,7 +41,8 @@ html{
 }
 .text2{
     font-size: 30px;
-    color: #6ab04c;
+    color: black;
+    font-weight: 100px;
 }
   
 @keyframes text {
