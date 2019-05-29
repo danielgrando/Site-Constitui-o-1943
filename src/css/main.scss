@@ -19,9 +19,9 @@ html{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-image: cover;
     background-image: url("https://unsplash.it/1500/639?random"); 
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .titulo span{
     text-transform: uppercase;
@@ -33,7 +33,7 @@ html{
     font-weight: 700;
     letter-spacing: 8px;
     margin-bottom: 20px;
-    //background: white;
+    //background-color: white;
     position: relative;
     animation: text 3s 1;
 }
@@ -49,7 +49,6 @@ html{
       margin-bottom: -40px;
     }
     30%{
-
       letter-spacing: 25px;
       margin-bottom: -40px;
     }
