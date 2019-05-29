@@ -19,7 +19,7 @@ html{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-image: url("https://unsplash.it/1500/639?random"); 
+    background-image: url("https://unsplash.it/1920/1080?random"); 
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -40,21 +40,21 @@ html{
 .text2{
     font-size: 30px;
     color: black;
-    font-weight: 100px;
+    font-weight: 150px;
 }
   
 @keyframes text {
     0%{
-      color: white;
-      margin-bottom: -40px;
+        color: white;
+        margin-bottom: -40px;
     }
     30%{
-      letter-spacing: 25px;
-      margin-bottom: -40px;
+        letter-spacing: 25px;
+        margin-bottom: -40px;
     }
     85%{
-      letter-spacing: 8px;
-      margin-bottom: -40px;
+        letter-spacing: 8px;
+        margin-bottom: -40px;    
     }
   }
 
