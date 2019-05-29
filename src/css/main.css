@@ -54,7 +54,7 @@ html {
 
 @-webkit-keyframes text {
   0% {
-    color: white;
+    color: rgba(106, 176, 76, 0.8);
     margin-bottom: -40px;
   }
   30% {
@@ -69,7 +69,7 @@ html {
 
 @keyframes text {
   0% {
-    color: white;
+    color: rgba(106, 176, 76, 0.8);
     margin-bottom: -40px;
   }
   30% {
