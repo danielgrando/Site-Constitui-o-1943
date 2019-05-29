@@ -95,7 +95,7 @@ html {
   width: 46px;
   height: 46px;
   background: #6ab04c;
-  bottom: 40px;
+  bottom: 60px;
   right: 30px;
   text-decoration: none;
   line-height: 50px;
@@ -109,7 +109,7 @@ html {
 }
 
 img {
-  height: 150px;
+  height: 160px;
   width: 300px;
   -o-object-fit: cover;
      object-fit: cover;
@@ -121,7 +121,7 @@ img {
 
 .card1 {
   cursor: pointer;
-  width: 150px;
+  width: 180px;
   height: 350px;
 }
 

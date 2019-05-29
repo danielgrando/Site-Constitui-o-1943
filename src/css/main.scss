@@ -60,8 +60,6 @@ html{
   }
 
 
-
-
 //CONTAINER
 
 .hr{
@@ -73,16 +71,13 @@ html{
     align-items: center;
 }
 
-
-
-
 //SCROLL-TOP
 .top{
     position: fixed;
     width: 46px;
     height: 46px;
     background: #6ab04c;
-    bottom: 40px;
+    bottom: 60px;
     right: 30px;
     text-decoration: none;
     line-height: 50px;
@@ -97,7 +92,7 @@ html{
 //IMG
 
 img{
-    height: 150px;
+    height: 160px;
     width: 300px;
     object-fit:cover;
 }
@@ -105,11 +100,10 @@ img{
     height: 112px;
 }
 
-
 //CARDS
 .card1{
     cursor: pointer;
-    width: 150px;
+    width: 180px;
     height: 350px;
 }
 .front,.back{
