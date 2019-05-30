@@ -41,9 +41,7 @@ html{
     font-size: 30px;
     color: black;
     font-weight: 400;
-    opacity: 1;
     animation: text2 3s 1;
-    margin-top: 20px;
 }
   
 @keyframes text1 {
@@ -62,20 +60,17 @@ html{
   }
   @keyframes text2 {
     0%{
-        opacity: 0.5;
-        margin-bottom: -60px;
-    }
-    30%{
-        letter-spacing: 25px;
-        margin-bottom: -60px;
+        opacity: 0;
+      
     }
     85%{
+        opacity:0;
+    
+    }
+    100%{
         opacity:1;
-        letter-spacing: 8px;
-        margin-bottom: -60px;    
     }
   }
-
 
 //CONTAINER
 
