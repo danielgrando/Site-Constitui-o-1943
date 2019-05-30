@@ -88,11 +88,10 @@ html {
 
 @-webkit-keyframes text2 {
   0% {
-    opacity: 1;
+    opacity: 0.5;
     margin-bottom: -60px;
   }
   30% {
-    opacity: 0.5;
     letter-spacing: 25px;
     margin-bottom: -60px;
   }
@@ -105,11 +104,10 @@ html {
 
 @keyframes text2 {
   0% {
-    opacity: 1;
+    opacity: 0.5;
     margin-bottom: -60px;
   }
   30% {
-    opacity: 0.5;
     letter-spacing: 25px;
     margin-bottom: -60px;
   }
