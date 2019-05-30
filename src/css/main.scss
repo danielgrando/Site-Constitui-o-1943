@@ -35,15 +35,18 @@ html{
     margin-bottom: 20px;
     //background-color: white;
     position: relative;
-    animation: text 3s 1;
+    animation: text1 3s 1;
 }
 .text2{
     font-size: 30px;
     color: black;
     font-weight: 400;
+    opacity: 1;
+    animation: text2 3s 1;
+    margin-top: 20px;
 }
   
-@keyframes text {
+@keyframes text1 {
     0%{
         color: rgba(106, 176, 76,0.8);
         margin-bottom: -40px;
@@ -55,6 +58,22 @@ html{
     85%{
         letter-spacing: 8px;
         margin-bottom: -40px;    
+    }
+  }
+  @keyframes text2 {
+    0%{
+        opacity: 1;
+        margin-bottom: -60px;
+    }
+    30%{
+        opacity: 0.5;
+        letter-spacing: 25px;
+        margin-bottom: -60px;
+    }
+    85%{
+        opacity: 1;
+        letter-spacing: 8px;
+        margin-bottom: -60px;    
     }
   }
 
