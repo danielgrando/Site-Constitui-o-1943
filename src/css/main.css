@@ -153,6 +153,13 @@ img {
   height: 112px;
 }
 
+.freire {
+  height: 190px;
+  width: 360px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .card1 {
   cursor: pointer;
   width: 180px;
